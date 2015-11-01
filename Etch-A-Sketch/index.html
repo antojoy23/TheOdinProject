@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+	<head>
+		<title>Etch-A-Sketch</title>
+		<link rel="stylesheet" href="css/sketch.css">
+	</head>
+	<body>
+		<div class="form-input">
+			<h2>Etch-A-Sketch - Minimal Version</h2>
+			<label for="num-input">Enter the number of grids</label><br/>
+			<input type="number" id="num-input" /> x <span id="grids-msg">0</span> grids.<br/>
+			<button type="submit">Start</button>
+		</div>
+		<div id="container">
+			<div id="options">
+			<input type="radio" name="versions" value="1">Version 1</input>
+			<input type="radio" name="versions" value="2">Version 2</input>
+			<button type="reset" id="reset">Reset</button>
+		</div>
+		</div>
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="js/sketch.js"></script>
+	</body>
+</html>
