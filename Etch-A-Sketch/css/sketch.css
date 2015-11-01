@@ -1,0 +1,27 @@
+#container {
+	max-width: 960px;
+	margin: auto;
+}
+.box {
+	float: left;
+	background-color: #814374;
+}
+.highlight {
+	background-color: #F2F2F2;
+}
+#options {
+	display:none;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;	
+}
+#options button {
+	padding: 5px 15px;
+	margin-left: 20px;
+}
+#num-input {
+	width: 50px;	
+}
+.form-input {
+	text-align: center;
+}
